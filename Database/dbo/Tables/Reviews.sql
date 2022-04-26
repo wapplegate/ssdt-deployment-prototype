@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Reviews]
+(
+	[Identifier] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[Review] NVARCHAR(MAX) NOT NULL,
+	[Rating] INT NOT NULL,
+	Deleted BIT NOT NULL
+)
